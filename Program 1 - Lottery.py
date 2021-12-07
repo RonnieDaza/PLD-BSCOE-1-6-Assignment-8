@@ -45,10 +45,12 @@ def lotteryProgram():
         print("Invalid number. Please try again.")
         # 15. Ask the user again for the userInputNumber1 from 0 to 9.
         userInputNumber1 = int(input("Please enter the first number from 0 to 9: "))
+    else:
+        # 16. If the user entered a valid number, then add the userInputNumber1 to the userInputSelection.
+        userInputSelection.append(userInputNumber1)
 
 
 
 
 
 
-        
