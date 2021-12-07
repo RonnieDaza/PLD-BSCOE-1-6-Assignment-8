@@ -8,3 +8,6 @@
 # Steps
 # 1. Import random.
 import random
+
+# 2. Get a random number from 0 to 100.
+randomNumber = random.randint(0,100)
