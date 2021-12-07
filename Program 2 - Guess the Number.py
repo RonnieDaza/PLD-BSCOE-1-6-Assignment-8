@@ -38,3 +38,5 @@ while userInput != randomNumber:
 
 # 13. If the user guessed the random number right, then print a congratulatory message.
 print("You guessed the random number right. Congratulations!")
+# 14. Display the userInput.
+print(f"The number you entered is: {userInput}.")
