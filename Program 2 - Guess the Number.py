@@ -35,3 +35,6 @@ while userInput != randomNumber:
             print("The number you entered is less than the random number. Please try again.")
             # 12. Ask the user again to guess the random number from 0 to 100.
             userInput = int(input("Please guess the random number from 0 to 100: "))
+
+# 13. If the user guessed the random number right, then print a congratulatory message.
+print("You guessed the random number right. Congratulations!")
