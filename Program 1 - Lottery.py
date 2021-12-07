@@ -60,3 +60,6 @@ def lotteryProgram():
     else:
         # 21. If the user entered a valid number, then add the userInputNumber2 to the userInputSelection.
         userInputSelection.append(userInputNumber2)
+    
+    # 22. Ask the user for the userInputNumber3 from 0 to 9.      
+    userInputNumber3 = int(input("Please enter the third number from 0 to 9: "))
