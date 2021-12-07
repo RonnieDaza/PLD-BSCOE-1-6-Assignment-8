@@ -17,3 +17,5 @@ userInput = int(input("Please guess the random number from 0 to 100: "))
 
 # 4. Create a loop to test if the userInput does not match the randomNumber.
 while userInput != randomNumber:
+    # 5. Test if the userInput is less than 0 or greater than 100.
+    if userInput<0 or userInput>100:
