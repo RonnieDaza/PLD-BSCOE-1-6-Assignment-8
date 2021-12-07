@@ -23,3 +23,6 @@ while userInput != randomNumber:
         print("Invalid number. Please try again.")
         # 7. Ask the user again to guess the random number from 0 to 100.
         userInput = int(input("Please guess the random number from o to 100: "))
+    else:
+        # 8. Test if the userInput is greater than the randomNumber.
+        if userInput > randomNumber:
