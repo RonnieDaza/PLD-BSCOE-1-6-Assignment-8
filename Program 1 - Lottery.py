@@ -89,3 +89,7 @@ def lotteryProgram():
         print(f"The lottery numbers are: {randomNumberSelection}.")
         # 34. Display the numbers entered by the user from the userInputSelection list.
         print(f"The numbers you entered are: {userInputSelection}.")
+    
+    # 35. Count the numbers entered by the user that matches the random numbers.
+    # 36. Set the counter variable to 0.
+    counter = 0
