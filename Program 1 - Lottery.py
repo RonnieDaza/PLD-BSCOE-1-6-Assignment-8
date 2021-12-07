@@ -67,3 +67,5 @@ def lotteryProgram():
     while userInputNumber3 in userInputSelection or userInputNumber3<0 or userInputNumber3>9:
         # 24. If any of the conditions is true, then the userInputNumber3 is invalid. Display a message to the user stating that the number entered is invalid and try again.
         print ("Invalid number. Please try again.")
+        # 25. Ask the user again for the userInputNumber3 from 0 to 9.
+        userInputNumber3 = int(input("Please enter the third number from 0 to 9: "))
