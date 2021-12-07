@@ -104,3 +104,6 @@ def lotteryProgram():
 
 # 40. For us to use the whole program, we need to call the lotteryProgram().
 lotteryProgram()
+
+# 41. Create a def for winOrLose().
+def winOrLose():
