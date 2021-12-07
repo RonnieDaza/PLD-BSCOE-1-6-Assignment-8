@@ -33,3 +33,6 @@ def lotteryProgram():
     randomNumber3 = random.randint(0,9)
     # 10. Add the randomNumber3 to the randomNumberSelection.
     randomNumberSelection.append(randomNumber3)
+
+    # 11. Create an empty list to store the 3 numbers that will be inputted by the user.
+    userInputSelection = []
