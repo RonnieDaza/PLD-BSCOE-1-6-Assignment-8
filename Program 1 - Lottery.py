@@ -36,3 +36,6 @@ def lotteryProgram():
 
     # 11. Create an empty list to store the 3 numbers that will be inputted by the user.
     userInputSelection = []
+
+    # 12. Ask the user for the userInputNumber1 from 0 to 9.
+    userInputNumber1 = int(input("Please enter the first number from 0 to 9: "))
