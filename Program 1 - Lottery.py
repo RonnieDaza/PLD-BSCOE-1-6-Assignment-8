@@ -82,7 +82,7 @@ def lotteryProgram():
         # 30. Display the numbers entered by the user from the userInputSelection list.
         print(f"The numbers you entered are: {userInputSelection}.")
     else:
-        # 31. If the numbers in userInputSelection list does not match the  numbers in randomNumberSelection list, then the user loses.
+        # 31. If the numbers in userInputSelection list does not match the numbers in randomNumberSelection list, then the user loses.
         # 32. Print a message stating that "You lose." to the user.
         print("You lose.")
         # 33. Display the random numbers from the randomNumberSelection list.
