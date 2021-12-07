@@ -99,5 +99,5 @@ def lotteryProgram():
         if number in randomNumberSelection:
             counter = counter+1
     
-    # 39. Display the numbers that are correctly guessed by the user.
+    # 39. The numbers in the userInputSelection list that matches with the numbers in the randomNumberSelection list are the numbers that are correctly guessed by the user. Print a message that displays it.
     print("You guessed " + str(counter) + " number(s) right.")
