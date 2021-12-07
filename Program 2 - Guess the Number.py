@@ -30,3 +30,6 @@ while userInput != randomNumber:
             print("The number you entered is greater than the random number. Please try again.")
             # 10. Ask the user again to guess the random number from 0 to 100.
             userInput = int(input("Please guess the random number from 0 to 100: "))
+        else:
+            # 11. If nothing matches any conditions, then the number entered is less than the random number. Print a message stating that the number entered is less than the random number and try again.
+            print("The number you entered is less than the random number. Please try again.")
