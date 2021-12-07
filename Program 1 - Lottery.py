@@ -77,3 +77,5 @@ def lotteryProgram():
     if sorted(userInputSelection) == sorted(randomNumberSelection):
         # 28. Print a message that states "Winner!" to the user.
         print("Winner!")
+        # 29. Display the random numbers from the randomNumberSelection list.
+        print(f"The lottery numbers are: {randomNumberSelection}.")
