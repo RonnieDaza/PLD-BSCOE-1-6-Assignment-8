@@ -73,9 +73,9 @@ def lotteryProgram():
         # 26. If the user entered a valid number, then add the userInputNumber3 to the userInputSelection.
         userInputSelection.append(userInputNumber3)
     
-    # 27. If the numbers in userInputSelection list matches the numbers in randomNumberSelection list, then the user wins. 
+    # 27. If the numbers in userInputSelection list matches the random numbers in randomNumberSelection list, then the user wins. 
     if sorted(userInputSelection) == sorted(randomNumberSelection):
-        # 28. Print a message that states "Winner!" to the user.
+        # 28. Print a message stating that "Winner!" to the user.
         print("Winner!")
         # 29. Display the random numbers from the randomNumberSelection list.
         print(f"The lottery numbers are: {randomNumberSelection}.")
