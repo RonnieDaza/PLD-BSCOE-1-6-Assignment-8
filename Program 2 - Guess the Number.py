@@ -40,3 +40,5 @@ while userInput != randomNumber:
 print("You guessed the random number right. Congratulations!")
 # 14. Display the userInput.
 print(f"The number you entered is: {userInput}.")
+# 15. Display the randomNumber.
+print(f"The random number is: {randomNumber}.")
