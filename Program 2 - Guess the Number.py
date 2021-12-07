@@ -42,3 +42,5 @@ print("You guessed the random number right. Congratulations!")
 print(f"The number you entered is: {userInput}.")
 # 15. Display the randomNumber.
 print(f"The random number is: {randomNumber}.")
+# 16. Print the concluding message.
+print("Thank you for using this program.")
