@@ -116,3 +116,6 @@ def winOrLose():
         # 44. If the user input is "n" then display the concluding message. End the program.
         print("Thank you for using this program.")
         sys.exit
+
+# 45. For us to ask if the user will continue or not, we need to call the def winOrLose().
+winOrLose()
