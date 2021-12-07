@@ -26,3 +26,5 @@ while userInput != randomNumber:
     else:
         # 8. Test if the userInput is greater than the randomNumber.
         if userInput > randomNumber:
+            # 9. If the condition is true, then print a message stating that the number entered is greater than the random number and try again.
+            print("The number you entered is greater than the random number. Please try again.")
