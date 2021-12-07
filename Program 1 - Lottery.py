@@ -101,3 +101,6 @@ def lotteryProgram():
     
     # 39. The numbers in the userInputSelection list that matches with the numbers in the randomNumberSelection list are the numbers that are correctly guessed by the user. Print a message that displays it.
     print("You guessed " + str(counter) + " number(s) right.")
+
+# 40. For us to use the whole program, we need to call the lotteryProgram().
+lotteryProgram()
