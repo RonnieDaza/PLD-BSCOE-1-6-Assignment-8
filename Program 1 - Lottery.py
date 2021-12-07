@@ -109,3 +109,6 @@ lotteryProgram()
 def winOrLose():
     # 42. Let the user enter "y" to continue or enter "n" to end the program.
     yesOrNo = input("Try again? Type 'y' if you want to try again or type 'n' if you want to close the program: ")
+    # 43. If the user input is "y" then call the lotteryProgram() to start the program again.
+    if yesOrNo == "y":
+        lotteryProgram()
