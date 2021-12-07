@@ -15,3 +15,6 @@ import sys
 
 # 3. Create a def for lotteryProgram().
 def lotteryProgram():
+    
+    # 4. Create an empty list to store the 3 random numbers.
+    randomNumberSelection = []
