@@ -10,3 +10,5 @@
 # Steps
 # 1. Import random.
 import random
+# 2. Import sys.
+import sys
