@@ -75,3 +75,5 @@ def lotteryProgram():
     
     # 27. If the numbers in userInputSelection list matches the numbers in randomNumberSelection list, then the user wins. 
     if sorted(userInputSelection) == sorted(randomNumberSelection):
+        # 28. Print a message that states "Winner!" to the user.
+        print("Winner!")
