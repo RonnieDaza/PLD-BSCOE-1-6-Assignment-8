@@ -87,3 +87,5 @@ def lotteryProgram():
         print("You lose.")
         # 33. Display the random numbers from the randomNumberSelection list.
         print(f"The lottery numbers are: {randomNumberSelection}.")
+        # 34. Display the numbers entered by the user from the userInputSelection list.
+        print(f"The numbers you entered are: {userInputSelection}.")
