@@ -12,3 +12,6 @@
 import random
 # 2. Import sys.
 import sys
+
+# 3. Create a def for lotteryProgram().
+def lotteryProgram():
