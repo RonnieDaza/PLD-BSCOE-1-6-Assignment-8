@@ -112,7 +112,7 @@ def winOrLose():
     # 43. If the user input is "y" then call the lotteryProgram() to start the program again.
     if yesOrNo == "y":
         lotteryProgram()
-     else:
+    else:
         # 44. If the user input is "n" then display the concluding message. End the program.
         print("Thank you for using this program.")
         sys.exit
