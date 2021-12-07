@@ -18,3 +18,6 @@ def lotteryProgram():
     
     # 4. Create an empty list to store the 3 random numbers.
     randomNumberSelection = []
+
+    # 5. Get the randomNumber1 from 0 to 9.
+    randomNumber1 = random.randint(0,9)
