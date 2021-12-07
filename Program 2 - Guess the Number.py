@@ -11,3 +11,6 @@ import random
 
 # 2. Get a random number from 0 to 100.
 randomNumber = random.randint(0,100)
+
+# 3. Ask the user to guess the random number from 0 to 100.
+userInput = int(input("Please guess the random number from 0 to 100: "))
