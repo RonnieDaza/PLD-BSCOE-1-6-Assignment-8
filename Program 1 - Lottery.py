@@ -95,6 +95,6 @@ def lotteryProgram():
     counter = 0
     # 37. Create a for loop to test if the numbers in the userInputSelection list matches with the numbers in the randomNumberSelection list.
     for number in userInputSelection:
-        # 38. If the numbers in the userInputSelection list matches with the numbers in the randomNumberSelection list, then the counter will go up by 1.
+        # 38. If the numbers in the userInputSelection list matches with the numbers in the randomNumberSelection list, then the counter variable will go up by 1.
         if number in randomNumberSelection:
             counter = counter+1
