@@ -14,3 +14,6 @@ randomNumber = random.randint(0,100)
 
 # 3. Ask the user to guess the random number from 0 to 100.
 userInput = int(input("Please guess the random number from 0 to 100: "))
+
+# 4. Create a loop to test if the userInput does not match the randomNumber.
+while userInput != randomNumber:
