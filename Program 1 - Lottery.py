@@ -21,3 +21,5 @@ def lotteryProgram():
 
     # 5. Get the randomNumber1 from 0 to 9.
     randomNumber1 = random.randint(0,9)
+    # 6. Add the randomNumber1 to the randomNumberSelection.
+    randomNumberSelection.append(randomNumber1)
