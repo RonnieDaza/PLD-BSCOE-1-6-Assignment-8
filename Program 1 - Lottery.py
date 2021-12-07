@@ -98,3 +98,6 @@ def lotteryProgram():
         # 38. If the numbers in the userInputSelection list matches with the numbers in the randomNumberSelection list, then the counter variable will go up by 1.
         if number in randomNumberSelection:
             counter = counter+1
+    
+    # 39. Display the numbers that are correctly guessed by the user.
+    print("You guessed " + str(counter) + " number(s) right.")
