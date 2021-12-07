@@ -51,6 +51,8 @@ def lotteryProgram():
     
     # 17. Ask the user for the userInputNumber2 from 0 to 9.
     userInputNumber2 = int(input("Please enter the second number from 0 to 9: "))
+    # 18. Create a loop to test if the userInputNumber2 is in the userInputSelection already or if it is less than 0 or if it is greater than 9.
+    while userInputNumber2 in userInputSelection or userInputNumber2<0 or userInputNumber2>9:
 
 
 
